@@ -1,0 +1,92 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Pesquisa de interesse</title>
+
+</head>
+
+<body>
+    <nav>
+        <header>Olá! Meu Nome é Paloma</header>
+        <section class="nav-items">
+            <a href=#>Home</a>
+            <a href=#>Sobre</a>
+            <a href=#form>Formulario</a>
+        </section>
+
+    </nav>
+    <section id="home">
+        <div class="container">
+            <div class="column-left">
+
+                <h1>Sejam bem vindo!</h1>
+
+                <p>
+                    Entre em contato pelo formulário para saber mais sobre aplicações de exelência.
+                </p>
+
+                <a id="CTA-button" href="#form"> Comece agora!</a>
+
+            </div>
+            <picture class="column-right">
+                <img src="./img/animation_500_l9sq951b.gif" alt="illustration" id="home-image" />
+            </picture>
+        </div>
+
+    </section>
+
+
+    <form id="form" action="http://google.com">
+        <section>
+
+            <h2>Formulario de interesses</h2>
+
+            <p>Digite seu nome:</p>
+            <input type="text" name="userName" size=40 maxlength=35 placeholder="Digite seu nome completo">
+
+            <p>Digite sua profissão:</p>
+            <input type="text" name="userJob" size=40 maxlength=35 placeholder="Digite sua profissão">
+
+            <p></p>
+
+            <p>Nos conte um pouco sobre você:</p>
+            <textarea name="userComent" cols="30" rows="4" maxlength=35 placeholder="Faça um breve comentário" textarea>
+            </textarea>
+
+            <p>Você faz exercicios regularmente?</p>
+            <input type="radio" name="exercise" value=1>Sim
+
+            <input type="radio" name="exercise" value=2>Não
+            </p>
+
+            <p>Por onde você lê sobre os assuntos que você mais gosta?</p>
+            <input type="checkbox" name="Books">Livros
+            <input type="checkbox" name="Web">Sites
+            <input type="checkbox" name="Apps">Aplicativos
+            <input type="checkbox" name="Magazines">Revistas
+
+
+            <p>Qual gênero de filme que você mais gosta? </p>
+            <select name="moviePref">
+                <option>
+                <option value="1">Comédia</option>
+                <option value="2">Romance</option>
+                <option value="3">Drama</option>
+                <option value="4">Terror</option>
+                <option value="1">Ação</option>
+                </option>
+            </select>
+
+
+            <input id="form-button" type="submit" value="ENVIAR">
+
+        </section>
+    </form>
+
+</body>
+
+</html>
